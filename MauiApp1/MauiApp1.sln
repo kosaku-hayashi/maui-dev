@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp1", "MauiApp1\MauiApp1.csproj", "{81D475C1-0254-4DB9-8E29-1BFADD971542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{68DE1EBF-643B-4A42-9B0D-4583BAC2AD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommunityToolkit.Maui", "libs\CommunityToolkit.Maui\src\CommunityToolkit.Maui\CommunityToolkit.Maui.csproj", "{017C4E03-CD11-4EBA-8313-7C6CCB92E373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81D475C1-0254-4DB9-8E29-1BFADD971542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D475C1-0254-4DB9-8E29-1BFADD971542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D475C1-0254-4DB9-8E29-1BFADD971542}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{81D475C1-0254-4DB9-8E29-1BFADD971542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D475C1-0254-4DB9-8E29-1BFADD971542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D475C1-0254-4DB9-8E29-1BFADD971542}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{017C4E03-CD11-4EBA-8313-7C6CCB92E373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017C4E03-CD11-4EBA-8313-7C6CCB92E373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017C4E03-CD11-4EBA-8313-7C6CCB92E373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017C4E03-CD11-4EBA-8313-7C6CCB92E373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{017C4E03-CD11-4EBA-8313-7C6CCB92E373} = {68DE1EBF-643B-4A42-9B0D-4583BAC2AD75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B92CC3-3351-4B29-B537-684B920B065B}
+	EndGlobalSection
+EndGlobal

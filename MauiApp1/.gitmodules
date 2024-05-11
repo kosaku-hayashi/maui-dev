@@ -1,0 +1,3 @@
+[submodule "libs/CommunityToolkit.Maui"]
+	path = libs/CommunityToolkit.Maui
+	url = https://github.com/kosaku-hayashi/CommunityToolkit.Maui.git
