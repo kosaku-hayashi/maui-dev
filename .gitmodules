@@ -1,0 +1,6 @@
+[submodule "MauiDev/libs/CommunityToolkit.Maui"]
+	path = MauiDev/libs/CommunityToolkit.Maui
+	url = https://github.com/kosaku-hayashi/CommunityToolkit.Maui.git
+[submodule "MauiDev/libs/MauiIcons"]
+	path = MauiDev/libs/MauiIcons
+	url = https://github.com/kosaku-hayashi/MauiIcons.git
