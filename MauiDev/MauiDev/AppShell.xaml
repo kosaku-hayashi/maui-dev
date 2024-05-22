@@ -3,13 +3,27 @@
     x:Class="MauiDev.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
     xmlns:local="clr-namespace:MauiDev"
-    Shell.FlyoutBehavior="Disabled"
-    Title="MauiDev">
+    Title="MauiDev"
+    FlyoutIcon="{mi:Material Icon=MenuBook,IconColor=DeepSkyBlue}"
+    Shell.TabBarForegroundColor="Gold"
+    Shell.TabBarUnselectedColor="Silver">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!--<ShellContent FlyoutItemIsVisible="False" Title="Home" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" Icon="{mi:Material Icon=Star}"/>
+    <ShellContent FlyoutItemIsVisible="False" Title="MainPage2" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage2" Icon="{mi:Material Icon=VerifiedUser}"/>-->
+
+    <FlyoutItem Title="Maui Dev" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="MainPage3" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage3"/>
+        <ShellContent Title="MainPage4" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage4" Icon="{mi:Material Icon=VerifiedUser,IconColor=Blue}" />
+        <Tab Title="Tab" Icon="{mi:Material Icon=Tab,IconColor=Red}">
+            <ShellContent Title="TabPage" ContentTemplate="{DataTemplate local:MainPage}" Icon="{mi:Material Icon=Interests,IconColor=Green}"/>
+            <ShellContent Title="TabPage2" ContentTemplate="{DataTemplate local:MainPage}" Icon="{mi:Material Icon=Interests,IconColor=Purple}"/>
+        </Tab>
+    </FlyoutItem>
+
+    <MenuItem Text="Settings" IconImageSource="{mi:Material Icon=Settings}"/>
+    <MenuItem Text="About" IconImageSource="{mi:Material Icon=Info}"/>
+    <MenuItem Text="Feedback" IconImageSource="{mi:Material Icon=Feedback}"/>
 
 </Shell>
